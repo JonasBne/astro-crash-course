@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a website I've built with Astro based on [Brad Traversy's tutorial on YouTube] (https://youtu.be/Oi9z5gfIHJs).
+This is a website I've built with Astro based on [Brad Traversy's tutorial on YouTube](https://youtu.be/Oi9z5gfIHJs).
 
 I made some tweaks such as changing styles, organizing code in a different way,... but the end result is fairly similar to the example.
 
