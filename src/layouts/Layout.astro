@@ -1,11 +1,11 @@
 ---
 import Header from "../components/Header.astro";
 
-export interface Props {
+interface Props {
     title?: string;
 }
 
-const { title = "Astro Course" } = Astro.props as Props;
+const { title = "Astro Course" } = Astro.props;
 ---
 
 <!DOCTYPE html>

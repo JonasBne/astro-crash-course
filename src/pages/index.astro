@@ -1,7 +1,14 @@
 ---
+import Showcase from "../components/Showcase.astro";
 import Layout from "../layouts/Layout.astro";
+import FrameworksLogos from "../images/framework-logos.png";
 ---
 
 <Layout title="Home - Welcome">
-    <div>Hello world!</div>
+    <Showcase
+        heading="Welcome to the Astro Crash Course!"
+        image={FrameworksLogos}
+        imageAlt="JavaScript framework logo's"
+        text="Build super fast HTML-first websites using your favorite JavaScript frameworks."
+    />
 </Layout>

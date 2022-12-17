@@ -4,11 +4,9 @@
 
 This is a website I've built with Astro based on [Brad Traversy's tutorial on YouTube] (https://youtu.be/Oi9z5gfIHJs).
 
-I made some changes such as using Tailwind for styling instead of plain css.
+I made some tweaks such as changing styles, organizing code in a different way,... but the end result is fairly similar to the example.
 
-<img src="/src/images/screen.png">
-
-## Usage
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 

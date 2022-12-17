@@ -1,0 +1,22 @@
+---
+interface Props {
+    heading: string;
+    image?: string;
+    imageAlt?: string;
+    text: string;
+}
+
+const { heading, text, image, imageAlt } = Astro.props;
+---
+
+<section
+    class="bg-gradient-to-b from-slate-900 to-slate-500 w-full h-full p-20"
+>
+    <div class="flex flex-col justify-center items-center">
+        <h1 class="text-3xl font-bold text-white text-center">{heading}</h1>
+        <small class="text-lg text-white font-light text-center mt-6"
+            >{text}</small
+        >
+        {image && <img class="rounded-lg mt-6" src={image} alt={imageAlt} />}
+    </div>
+</section>
