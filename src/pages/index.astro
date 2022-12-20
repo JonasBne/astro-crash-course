@@ -3,6 +3,7 @@ import Showcase from "../components/Showcase.astro";
 import Layout from "../layouts/Layout.astro";
 import FrameworksLogos from "../images/framework-logos.png";
 import Features from "../components/Features.astro";
+import Tabs from "../components/Tabs.astro";
 ---
 
 <Layout title="Home - Welcome">
@@ -13,4 +14,24 @@ import Features from "../components/Features.astro";
         text="Build super fast HTML-first websites using your favorite JavaScript frameworks."
     />
     <Features />
+    <h3 class="text-3xl font-extrabold text-center mb-4">
+        Get Started With Astro
+    </h3>
+    <p class="px-6">
+        Get a new Astro project up and running locally with our helpful
+        create-astro CLI!
+    </p>
+    <Tabs
+        tabs={[
+            { heading: "NPM", content: "$npm create astro@latest" },
+            {
+                heading: "PNPM",
+                content: "$ pnpm create astro@latest",
+            },
+            {
+                heading: "YARN",
+                content: "$ yarn create astro@latest",
+            },
+        ]}
+    />
 </Layout>
